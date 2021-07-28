@@ -1,0 +1,18 @@
+.info__wrapper {
+  background-image: url('../img/img6.jpg');
+}
+.info {
+  padding: 5rem 0;
+}
+@media screen and (min-width: 1024px) {
+  .info  {
+      text-align: left;
+      padding: 10rem 0;
+  }
+  .info .text  {
+   margin: 0;
+}
+.info .item:not(:last-child)  {
+  margin-bottom: 3rem;
+}
+}

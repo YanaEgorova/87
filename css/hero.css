@@ -1,0 +1,24 @@
+.hero__wrapper {
+  background-image: url('../img/hero.jpg');
+}
+.hero {
+  padding: 10rem 0;
+}
+.hero .title {
+ color:var(--sub-text-color);
+}
+.hero .img {
+  max-width:30rem;
+ }
+@media screen and (min-width: 1024px) {
+   .hero {
+     text-align: left;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: row-reverse;
+   }
+   .hero .btn {
+     margin-left: 0;
+   }
+}
